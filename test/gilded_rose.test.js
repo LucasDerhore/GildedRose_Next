@@ -25,8 +25,8 @@ describe("Gilded Rose", function () {
       new LostQuality("Elixir of the Mongoose", 5, 7),
     ]);
     const items = gildedRose.updateQuality();
-    expect(items[0].quality).toBe(18);
-    expect(items[1].quality).toBe(5);
+    expect(items[0].quality).toBe(19);
+    expect(items[1].quality).toBe(6);
   });
 
   it("Winning quality", function () {

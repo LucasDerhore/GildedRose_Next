@@ -6,15 +6,15 @@ const { WinningQuality } = require("../src/winning_quality");
 const items = [
   new LostQuality("+5 Dexterity Vest", 10, 20),
   new WinningQuality("Aged Brie", 2, 0),
-  new LostQuality("Elixir of the Mongoose", 5, 7),
+  new LostQuality("Elixir of the Mongoose", 0, 7),
   new LegendaryItem("Sulfuras, Hand of Ragnaros", 0, 80),
   new LegendaryItem("Sulfuras, Hand of Ragnaros", -1, 80),
-  new WinningQuality("Backstage passes to a TAFKAL80ETC concert", 15, 20),
-  new WinningQuality("Backstage passes to a TAFKAL80ETC concert", 10, 49),
-  new WinningQuality("Backstage passes to a TAFKAL80ETC concert", 5, 49),
+  new WinningQuality("Backstage passes to a TAFKAL80ETC concert", 10, 20),
+  new WinningQuality("Backstage passes to a TAFKAL80ETC concert", 9, 40),
+  new WinningQuality("Backstage passes to a TAFKAL80ETC concert", 5, 40),
 
   // This Conjured item does not work properly yet
-  new Item("Conjured Mana Cake", 3, 6),
+  //new Item("Conjured Mana Cake", 3, 6),
 ];
 
 const days = Number(process.argv[2]) || 2;
